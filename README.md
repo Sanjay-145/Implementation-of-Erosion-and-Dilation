@@ -31,7 +31,7 @@ import matplotlib.pyplot as plt
 ```
 img1=np.zeros((100,400),dtype='uint8')
 font=cv2.FONT_ITALIC
-cv2.putText(img1,'U Bhavya',(5,70),font,2,(255),5,cv2.LINE_AA)
+cv2.putText(img1,'SANJAY',(5,70),font,2,(255),5,cv2.LINE_AA)
 plt.axis('off')
 plt.imshow(img1)
 plt.show()
